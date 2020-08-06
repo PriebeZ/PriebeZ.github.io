@@ -2,37 +2,371 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <style>
+    body,
+    ul,
+    dl,
+    dd {
+      margin: 0px;
+      padding: 0px;
+    }
 
-        body {
-            background-color: cornsilk;
-        }
+    .wrap {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: url('images/bg.jpg') no-repeat;
+      background-size: 100% 100%;
+    }
 
-        .box1 {
-            width: 100%;
-            height: 100px;
-            background-image: linear-gradient(180deg, red, yellow);
-        }
+    .play_wrap {
+      width: 800px;
+      height: 544px;
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      margin-left: -400px;
+      margin-top: -272px;
+      /* background-color: #f9f9f9; */
+    }
 
-        video {
-            width: 300px;
-            height: 200px;
+    .search_bar {
+      height: 60px;
+      background-color: #c62f2f;
+      overflow: hidden;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      z-index: 11;
+    }
 
-        }
-    </style>
+    .search_bar img {
+      margin-left: 23px;
+    }
+
+    .search_bar input {
+      margin-right: 23px;
+      width: 296px;
+      height: 34px;
+      border-radius: 17px;
+      border: 0px;
+      background: url('images/zoom.png') 265px center no-repeat#a82828;
+      text-indent: 15px;
+      outline: none;
+      color: #ffffff;
+    }
+
+    .center_con {
+      height: 435px;
+      background-color: #fafafa;
+      display: flex;
+    }
+
+    .song_wrapper {
+      width: 200px;
+      height: 435px;
+      box-sizing: border-box;
+      padding: 10px;
+      list-style: none;
+      background: url('images/line.png') right center no-repeat;
+      position: relative;
+      /* overflow: hidden; */
+    }
+
+    .song_list li {
+      font-size: 12px;
+      color: #333;
+      line-height: 36px;
+      width: 180px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .song_list .active {
+      color: #da651e;
+    }
+
+    .player_con {
+      width: 400px;
+      height: 435px;
+      position: relative;
+    }
+
+    .disc {
+      position: absolute;
+      left: 73px;
+      top: 60px;
+      z-index: 9;
+    }
+
+    .cover {
+      position: absolute;
+      left: 125px;
+      top: 112px;
+      width: 150px;
+      height: 150px;
+      border-radius: 75px;
+      z-index: 8;
+    }
+
+    .comment_list {
+      width: 200px;
+      height: 435px;
+      box-sizing: border-box;
+      padding: 10px;
+      list-style: none;
+      background: url('images/line.png') left center no-repeat;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .comment_list dl {
+      padding-left: 55px;
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .comment_list dt {
+      position: absolute;
+      left: 4px;
+      top: 0px;
+    }
+
+    .comment_list dt img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+    }
+
+    .comment_list dd {
+      font-size: 12px;
+    }
+
+    .comment_list .name {
+      font-weight: bold;
+      color: #333;
+      margin-top: 5px;
+    }
+
+    .comment_list .detail {
+      color: #666;
+      margin-top: 5px;
+      line-height: 18px;
+    }
+
+    .audio_con {
+      height: 50px;
+      background-color: #f1f3f4;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+
+    .myaudio {
+      width: 800px;
+      height: 40px;
+      margin-top: 5px;
+      outline: none;
+      background-color: #f1f3f4;
+    }
+
+    /* 旋转的动画 */
+    @keyframes Rotate {
+      from {
+        transform: rotateZ(0);
+      }
+
+      to {
+        transform: rotateZ(360deg);
+      }
+    }
+
+    /* 旋转的类名 */
+    .autoRotate {
+      animation-name: Rotate;
+      animation-iteration-count: infinite;
+      animation-play-state: paused;
+      animation-timing-function: linear;
+      animation-duration: 5s;
+    }
+
+    /* 是否正在播放 */
+    .playing {
+      animation-play-state: running;
+    }
+
+    .play_bar {
+      position: absolute;
+      left: 200px;
+      top: -10px;
+      z-index: 10;
+      transform: rotate(-25deg);
+      transform-origin: 12px 12px;
+      transition: 1s;
+    }
+
+    /* 播放杆 转回去 */
+    .play_bar.playing {
+      transform: rotate(0);
+    }
+
+    .song_wrapper::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+
+    .song_wrapper::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #e1e1e2;
+    }
+
+    .comment_list::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+
+    .comment_list::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #e1e1e2;
+    }
+
+    #noyet {
+      text-align: center;
+    }
+  </style>
+  <script src="./js/axios.js"></script>
+  <script src="./js/vue.js"></script>
+  <!-- 滚动 -->
 </head>
 
 <body>
-    <div class="box1"> </div>
-    <img src="./images/timg.jpg" alt="">
-    <video src="./蕉忍疾风传，男人的魅力.mp4 " controls></video>
+  <div class="wrap" id="music">
+    <div class="play_wrap" id="player">
+      <div class="search_bar">
+        <img src="images/player_title.png" alt="" />
+        <input type="text" v-model="searchContent" @keyup.enter="search" />
+      </div>
+      <div class="center_con">
+        <div class="song_wrapper" style="overflow:auto">
+          <ul class="song_list">
+
+            <li @dblclick="playmusic(index),musicImg(index),getComment(index)" v-for="(item, index) in searchList"
+              :key="index">
+              {{item.name}}--{{item.artists[0].name}}
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="player_con">
+          <img src="images/player_bar.png" class="play_bar " :class="{ playing:show }" />
+          <!-- 黑胶碟片 -->
+          <img src="images/disc.png" class="disc autoRotate " :class="{ playing:show }" />
+          <img :src="musicPic?musicPic:'./images/cover.png'" class="cover autoRotate " :class="{ playing:show }" />
+        </div>
+        <div class="comment_list" style="overflow:auto">
+          <div>
+            <dl v-for="(item, index) in Commentlist" :key="index">
+
+              <dt>
+                <img :src="item.user.avatarUrl" alt="" />
+              </dt>
+              <dd class="name">{{item.user.nickname}}</dd>
+              <dd class="detail">
+                {{item.content}}
+              </dd>
+            </dl>
+
+          </div>
+          <p v-show="flag" id="noyet">暂无评论</p>
+        </div>
+      </div>
+      <div class="audio_con">
+        <audio controls autoplay loop class="myaudio" :src="musicUrl" @pause="show=false" @play="show=true"></audio>
+      </div>
+    </div>
+  </div>
+  <script>
+    var music = new Vue({
+      el: "#music",
+      data: {
+        searchContent: '',//搜索值
+        searchList: [], //搜索返回列表
+        musicUrl: '',//音乐路径
+        show: false,
+        musicPic: '',
+        Commentlist: [],
+        notYet: '',
+        flag: false
+      },
+      methods: {
+        search() {
+          // 获取搜索列表 名字
+          axios({
+            method: 'get',
+            url: `https://autumnfish.cn/search?keywords=${this.searchContent}`,
+          })
+            .then((res) => {
+              this.searchList = res.data.result.songs
+              console.log(this.searchList)
+            })
+            .catch((error) => {
+              console.log(error)
+            })
+        },
+        playmusic(i) {
+          // 双击播放
+          axios({
+            method: 'get',
+            url: `https://autumnfish.cn/song/url?id=${this.searchList[i].id}`,
+          })
+            .then((res) => {
+              this.musicUrl = res.data.data[0].url
+              console.log(this.musicUrl);
+            })
+        },
+        musicImg(i) {
+          // 双击播放改变歌曲封面图片
+          this.musicPic = ""
+          axios({
+            method: 'get',
+            url: `https://autumnfish.cn/song/detail?ids=${this.searchList[i].id}`,
+          })
+            .then((res) => {
+              this.musicPic = res.data.songs[0].al.picUrl
+              console.log(this.musicPic);
+            })
+        },
+        getComment(i) {
+
+          axios({
+            method: 'get',
+            url: `https://autumnfish.cn/comment/hot?id=${this.searchList[i].id}&type=0`,//填写url
+          })
+            .then((res) => {
+              this.Commentlist = res.data.hotComments
+              console.log(this.Commentlist)
+
+            })
+          if (this.Commentlist.length == 0) {
+            this.flag = true
+          }
+        }
+
+      },
+    })
+  </script>
+
 </body>
 
 </html>
