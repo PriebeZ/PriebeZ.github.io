@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title></title>
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="./styles/main.css" />
+</head>
+
+<body>
+  <div class="pageShell" id="app">
+    <aside class="sidebar">
+      <div class="logoRow">
+        <span class="logoDot"></span>
+        <span id="sidebarLabel"></span>
+      </div>
+
+      <nav class="sideNav" id="sideNav"></nav>
+
+      <div class="profileCard">
+        <div class="avatar" aria-hidden="true"></div>
+        <strong id="name"></strong>
+        <span id="headline"></span>
+        <div class="linkStack" id="links"></div>
+      </div>
+    </aside>
+
+    <main class="dashboard" id="dashboard">
+      <header class="topBar">
+        <div>
+          <p class="eyebrow" id="topEyebrow"></p>
+          <h1 id="topTitle"></h1>
+        </div>
+        <div class="topActions">
+          <div class="datePill" id="topPill"></div>
+          <div class="segmented localeSwitch" id="localeSwitch" role="group" aria-label="Language switch">
+            <button type="button" data-locale-switch="zh-CN">CN</button>
+            <button type="button" data-locale-switch="zh-TW">TW</button>
+            <button type="button" data-locale-switch="en">EN</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="metricGrid" id="metricGrid"></section>
+
+      <section class="chartPanel">
+        <div class="panelHead">
+          <div class="panelHeadTitle">
+            <h2 id="bioTitle"></h2>
+            <p id="bio"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel resumePanel" id="experience">
+        <div class="panelHead compact">
+          <h2 id="experienceTitle"></h2>
+          <p id="experienceSubtitle"></p>
+        </div>
+        <div class="timeline" id="experienceList"></div>
+      </section>
+
+      <section class="contentGrid">
+        <section class="panel projectsPanel" id="projects">
+          <div class="panelHead compact">
+            <h2 id="projectsTitle"></h2>
+            <p id="projectsSubtitle"></p>
+          </div>
+          <div class="projectGrid" id="projectGrid"></div>
+        </section>
+      </section>
+
+      <section class="panel skillsPanel" id="skills">
+        <div class="panelHead compact">
+          <h2 id="skillsTitle"></h2>
+          <p id="skillsSubtitle"></p>
+        </div>
+        <div class="skillList" id="skillList"></div>
+        <div class="textBlock" id="skillDetails"></div>
+      </section>
+
+      <section class="panel resumePanel" id="education">
+        <div class="panelHead compact">
+          <h2 id="educationTitle"></h2>
+          <p id="educationSubtitle"></p>
+        </div>
+        <div class="simpleGrid" id="educationList"></div>
+      </section>
+
+      <section class="floatingContact" id="contact">
+        <div>
+          <p class="eyebrow" id="contactEyebrow"></p>
+          <h2 id="contactTitle"></h2>
+        </div>
+        <div class="contactList" id="contactKv"></div>
+      </section>
+
+      <footer class="footer">
+        <span id="footerText"></span>
+      </footer>
+    </main>
+  </div>
+
+  <script src="./data/profile.js"></script>
+  <script src="./scripts/render.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>
