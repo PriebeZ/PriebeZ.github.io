@@ -69,13 +69,14 @@ window.profileData = {
       "role": "前端开发工程师",
       "period": "2025.08 - 至今",
       "summary": "负责数字资产钱包、跨境支付 App 与 PC 端即时通讯系统开发",
-      "bullets": [
-        "负责 THKPay 数字资产钱包 / 跨境支付 App 前端开发，覆盖钱包资产、链上转账、跨境汇款、信用卡、KYC、账户安全、多语言等核心业务场景。",
-        "负责 XHJ IM 即时通讯系统 PC 端开发，完成实时聊天、会话管理、联系人/群组管理、富文本编辑、文件上传、Markdown 笔记与 Electron 桌面端适配。",
-        "参与产品需求评审和技术方案设计，结合金融交易与 IM 实时通信场景处理接口异常、异步状态、权限校验、长连接稳定性和多端兼容问题。",
-        "封装通用业务组件、请求层、WebSocket 通信模块和状态管理模块，提升复杂业务页面的复用性、稳定性和维护效率。"
-      ]
-    },
+    "bullets": [
+      "负责 THKPay 数字资产钱包 / 跨境支付 App 前端开发，覆盖钱包资产、链上转账、跨境汇款、信用卡、KYC、账户安全、多语言等核心业务场景。",
+      "负责 XHJ IM 即时通讯系统 PC 端开发，完成实时聊天、会话管理、联系人/群组管理、富文本编辑、文件上传、Markdown 笔记与 Electron 桌面端适配。",
+      "参与产品需求评审和技术方案设计，结合金融交易与 IM 实时通信场景处理接口异常、异步状态、权限校验、长连接稳定性和多端兼容问题。",
+      "结合 AI 开发工具辅助页面搭建、组件封装、代码生成、问题排查与文案整理，提升复杂业务场景下的开发效率与交付速度。",
+      "封装通用业务组件、请求层、WebSocket 通信模块和状态管理模块，提升复杂业务页面的复用性、稳定性和维护效率。"
+    ]
+  },
     {
       "company": "深圳恒道智融信息技术有限公司（外派创金合信基金）",
       "role": "前端开发工程师",
@@ -91,25 +92,13 @@ window.profileData = {
     {
       "company": "深圳即客便利店管理有限公司",
       "role": "前端开发工程师",
-      "period": "2020.10 - 2021.12",
-      "summary": "负责即客优选小程序、极小铺 SaaS、商家端 H5/PC 管理系统",
+      "period": "2018.08 - 2021.12",
+      "summary": "负责即客优选小程序、极小铺 SaaS、商家端 H5/PC 管理系统与后台项目",
       "bullets": [
         "负责即客优选小程序、极小铺系统、SaaS PC/H5 端和微信小程序等产品的前端交互实现。",
         "基于 uni-app 重构即客优选小程序商城，支持不同客户模板样式和首页、分类、详情、搜索、拼团、预售、秒杀等业务模块。",
         "基于若依 / vue-element-admin 类后台框架开发商家端管理系统，覆盖商品、订单、门店、设备、代理商、权限角色等模块。",
-        "封装公共表格、字典、权限、请求拦截、响应异常处理和业务组件，提升后台管理类页面复用效率。"
-      ]
-    },
-    {
-      "company": "深圳市中欣永泰科技有限公司",
-      "role": "WEB 前端开发工程师",
-      "period": "2018.08 - 2020.09",
-      "summary": "负责 Web、Mobile、微信小程序与后台管理系统前端开发",
-      "bullets": [
-        "负责前端架构框架、前端技术设计与实现，准确理解产品需求和交互文档并完成页面效果落地。",
-        "参与 Web、Mobile、微信小程序等多平台应用开发，负责前端交互、接口联调和页面性能优化。",
-        "与设计团队、后端开发团队紧密配合，确保软件实施质量，并持续修正项目问题、优化用户体验。",
-        "参与车悠悠后台管理系统、响应式官网等项目，沉淀权限路由、请求拦截、表格组件和后台页面开发经验。"
+        "参与后台管理系统与多端项目开发，沉淀公共表格、字典、权限、请求拦截、响应异常处理和业务组件能力，提升后台页面复用效率。"
       ]
     }
   ],
@@ -150,6 +139,7 @@ window.profileData = {
   "skillDetails": [
     "熟练掌握原生 JavaScript 与 ES6，能够结合策略模式、组件化和模块化思路解决复杂业务问题。",
     "熟练掌握 Vue2、Vue3 技术栈，有 React、Angular 项目维护经验，熟悉 uni-app、小程序原生开发、H5、PC 后台和 Electron 桌面端项目。",
+    "熟练使用各类 AI 开发工具，能够结合 Figma MCP、Codex Cursor ChatGPT 等能力实现页面重构、代码生成、问题排查与整体项目快速开发。",
     "熟悉 Element UI、Ant Design、Vant、Naive UI、uView UI 等组件库使用与二次封装。",
     "熟悉微信/支付宝小程序原生开发、微信 JSSDK、微信授权、神策埋点、H5 多端适配和小程序快速跳转。",
     "熟悉 Axios 请求封装、Token 注入、登录过期拦截、接口异常处理、字典配置、权限路由和导航守卫。",
@@ -162,12 +152,13 @@ window.profileData = {
       "period": "2025.08 - 至今",
       "subtitle": "深圳米斯悦科技有限公司 · uni-app 多端金融支付应用",
       "description": "负责数字资产钱包及跨境支付应用前端开发，项目覆盖钱包资产管理、链上转账、法币汇款、换汇、信用卡、KYC、邀请码返利、多语言切换等核心场景，支持 H5、App、小程序多端运行。",
-      "bullets": [
-        "完成钱包首页、资产账户、币种详情、账单记录等模块，实现数字资产与法币资产展示、刷新、筛选和明细查看。",
-        "参与链上转账、平台转账、充值、闪兑、换汇等交易流程开发，支持 ETH、BSC、TRON 等多链资产场景。",
-        "负责信用卡模块，包括虚拟卡/实体卡申请、绑卡激活、卡详情、账单、转入、锁卡、注销、重置 PIN 等流程。",
-        "接入 vue-i18n 多语言体系并建立 fallback 机制，优化页面硬编码文案和动态提示的国际化容错能力。"
-      ],
+    "bullets": [
+      "完成钱包首页、资产账户、币种详情、账单记录等模块，实现数字资产与法币资产展示、刷新、筛选和明细查看。",
+      "参与链上转账、平台转账、充值、闪兑、换汇等交易流程开发，支持 ETH、BSC、TRON 等多链资产场景。",
+      "负责信用卡模块，包括虚拟卡/实体卡申请、绑卡激活、卡详情、账单、转入、锁卡、注销、重置 PIN 等流程。",
+      "使用 Figma MCP 工具链接 Codex，快速完成产品页面重构与设计还原，提升前端交付效率，支撑产品商业化落地与盈利目标实现。",
+      "接入 vue-i18n 多语言体系并建立 fallback 机制，优化页面硬编码文案和动态提示的国际化容错能力。"
+    ],
       "tags": [
         "uni-app",
         "Vue2",
@@ -250,7 +241,7 @@ window.profileData = {
     },
     {
       "title": "极小铺 SaaS 与商家端管理系统",
-      "period": "2020.10 - 2021.12",
+      "period": "2018.08 - 2021.12",
       "subtitle": "深圳即客便利店管理有限公司 · 商家端 PC/H5 / SaaS 后台 / 无人设备管理",
       "description": "负责极小铺 SaaS 和商家端后台开发，项目包含商品、分类、店铺、订单、代理商、设备、门店、权限角色、客服排班、公众号等管理能力。",
       "bullets": [
@@ -272,7 +263,7 @@ window.profileData = {
     },
     {
       "title": "即客优选小程序商城",
-      "period": "2020.10 - 2021.12",
+      "period": "2018.08 - 2021.12",
       "subtitle": "深圳即客便利店管理有限公司 · UniAPP 重构 / 原生小程序 / 多模板商城",
       "description": "参与即客优选小程序平台改版，将原商城能力使用 uni-app 进行模块化重构，为不同客户提供不同模板样式，形成类似有赞的小程序框架能力。",
       "bullets": [
@@ -292,8 +283,8 @@ window.profileData = {
     },
     {
       "title": "车悠悠项目后台管理系统",
-      "period": "2018.08 - 2020.09",
-      "subtitle": "深圳市中欣永泰科技有限公司 · Vue 后台管理系统",
+      "period": "2018.08 - 2021.12",
+      "subtitle": "深圳即客便利店管理有限公司 · Vue 后台管理系统",
       "description": "基于 Vue 全家桶搭建后台管理系统，包含登录、用户管理、产品内容管理、个人信息展示和角色权限管理等功能。",
       "bullets": [
         "使用 vue-cli、Vue Router 和组件化方式实现 SPA 页面，结合 Element UI 与 Less 完成后台页面开发。",
@@ -457,13 +448,14 @@ window.profileData = {
           "role": "前端開發工程師",
           "period": "2025.08 - 至今",
           "summary": "負責數位資產錢包、跨境支付 App 與 PC 端即時通訊系統開發",
-          "bullets": [
-            "負責 THKPay 數位資產錢包 / 跨境支付 App 前端開發，涵蓋錢包資產、鏈上轉帳、跨境匯款、信用卡、KYC、帳戶安全、多語系等核心業務場景。",
-            "負責 XHJ IM 即時通訊系統 PC 端開發，完成即時聊天、會話管理、聯絡人/群組管理、富文字編輯、檔案上傳、Markdown 筆記與 Electron 桌面端適配。",
-            "參與產品需求評審和技術方案設計，結合金融交易與 IM 即時通訊場景處理介面異常、非同步狀態、權限校驗、長連線穩定性和多端相容問題。",
-            "封裝通用業務元件、請求層、WebSocket 通訊模組和狀態管理模組，提升複雜業務頁面的複用性、穩定性和維護效率。"
-          ]
-        },
+    "bullets": [
+      "負責 THKPay 數位資產錢包 / 跨境支付 App 前端開發，涵蓋錢包資產、鏈上轉帳、跨境匯款、信用卡、KYC、帳戶安全、多語系等核心業務場景。",
+      "負責 XHJ IM 即時通訊系統 PC 端開發，完成即時聊天、會話管理、聯絡人/群組管理、富文字編輯、檔案上傳、Markdown 筆記與 Electron 桌面端適配。",
+      "參與產品需求評審和技術方案設計，結合金融交易與 IM 即時通訊場景處理介面異常、非同步狀態、權限校驗、長連線穩定性和多端相容問題。",
+      "結合 AI 開發工具輔助頁面搭建、元件封裝、程式碼生成、問題排查與文案整理，提升複雜業務場景下的開發效率與交付速度。",
+      "封裝通用業務元件、請求層、WebSocket 通訊模組和狀態管理模組，提升複雜業務頁面的複用性、穩定性和維護效率。"
+    ]
+  },
         {
           "company": "深圳恆道智融資訊技術有限公司（外派創金合信基金）",
           "role": "前端開發工程師",
@@ -479,25 +471,13 @@ window.profileData = {
         {
           "company": "深圳即客便利店管理有限公司",
           "role": "前端開發工程師",
-          "period": "2020.10 - 2021.12",
-          "summary": "負責即客優選小程式、極小鋪 SaaS、商家端 H5/PC 管理系統",
+          "period": "2018.08 - 2021.12",
+          "summary": "負責即客優選小程式、極小鋪 SaaS、商家端 H5/PC 管理系統與後台專案",
           "bullets": [
             "負責即客優選小程式、極小鋪系統、SaaS PC/H5 端和微信小程式等產品的前端互動實現。",
-            "基於 uni-app 重構即客優選小程式商場，支援不同客戶模板樣式和首頁、分類、詳情、搜尋、拼團、預售、秒殺等業務模組。",
+            "基於 uni-app 重構即客優選小程式商城，支援不同客戶模板樣式和首頁、分類、詳情、搜尋、拼團、預售、秒殺等業務模組。",
             "基於若依 / vue-element-admin 類後台框架開發商家端管理系統，覆蓋商品、訂單、門店、設備、代理商、權限角色等模組。",
-            "封裝公共表格、字典、權限、請求攔截、響應異常處理和業務元件，提升後台管理類頁面複用效率。"
-          ]
-        },
-        {
-          "company": "深圳市中欣永泰科技有限公司",
-          "role": "WEB 前端開發工程師",
-          "period": "2018.08 - 2020.09",
-          "summary": "負責 Web、Mobile、微信小程式與後台管理系統前端開發",
-          "bullets": [
-            "負責前端架構框架、前端技術設計與實現，準確理解產品需求和互動文檔並完成頁面效果落地。",
-            "參與 Web、Mobile、微信小程式等多平台應用開發，負責前端互動、介面聯調和頁面效能優化。",
-            "與設計團隊、後端開發團隊緊密配合，確保軟體實施品質，並持續修正專案問題、優化使用者體驗。",
-            "參與車悠悠後台管理系統、響應式官網等專案，沉澱權限路由、請求攔截、表格元件和後台頁面開發經驗。"
+            "參與後台管理系統與多端專案開發，沉澱公共表格、字典、權限、請求攔截、響應異常處理和業務元件能力，提升後台頁面複用效率。"
           ]
         }
       ],
@@ -538,6 +518,7 @@ window.profileData = {
       "skillDetails": [
         "熟練掌握原生 JavaScript 與 ES6，能夠結合策略模式、元件化和模組化思路解決複雜業務問題。",
         "熟練掌握 Vue2、Vue3 技術棧，有 React、Angular 專案維護經驗，熟悉 uni-app、小程式原生開發、H5、PC 後台和 Electron 桌面端專案。",
+        "熟練使用各類 AI 開發工具，能夠結合 Figma MCP、Codex 等能力實現頁面重構、程式碼生成、問題排查與整體專案快速開發。",
         "熟悉 Element UI、Ant Design、Vant、Naive UI、uView UI 等元件庫使用與二次封裝。",
         "熟悉微信/支付寶小程式原生開發、微信 JSSDK、微信授權、神策埋點、H5 多端適配和小程式快速跳轉。",
         "熟悉 Axios 請求封裝、Token 注入、登入過期攔截、介面異常處理、字典配置、權限路由和導覽守衛。",
@@ -550,12 +531,13 @@ window.profileData = {
           "period": "2025.08 - 至今",
           "subtitle": "深圳米斯悅科技有限公司 · uni-app 多端金融支付應用",
           "description": "負責數位資產錢包及跨境支付應用前端開發，專案涵蓋錢包資產管理、鏈上轉帳、法幣匯款、換匯、信用卡、KYC、邀請碼返利、多語言切換等核心場景，支援 H5、App、小程式多端執行。",
-          "bullets": [
-            "完成錢包首頁、資產帳戶、幣種詳情、帳單記錄等模組，實現數位資產與法幣資產展示、重新整理、篩選和明細檢視。",
-            "參與鏈上轉帳、平台轉帳、充值、閃兌、換匯等交易流程開發，支援 ETH、BSC、TRON 等多鏈資產場景。",
-            "負責信用卡模組，包括虛擬卡/實體卡申請、綁卡啟用、卡詳情、帳單、轉入、鎖卡、註銷、重設 PIN 等流程。",
-            "接入 vue-i18n 多語言體系並建立 fallback 機制，優化頁面硬編碼文案和動態提示的國際化容錯能力。"
-          ],
+    "bullets": [
+      "完成錢包首頁、資產帳戶、幣種詳情、帳單記錄等模組，實現數位資產與法幣資產展示、重新整理、篩選和明細檢視。",
+      "參與鏈上轉帳、平台轉帳、充值、閃兌、換匯等交易流程開發，支援 ETH、BSC、TRON 等多鏈資產場景。",
+      "負責信用卡模組，包括虛擬卡/實體卡申請、綁卡啟用、卡詳情、帳單、轉入、鎖卡、註銷、重設 PIN 等流程。",
+      "使用 Figma MCP 工具串接 Codex，快速完成產品頁面重構與設計還原，提升前端交付效率，支撐產品商業化落地與盈利目標實現。",
+      "接入 vue-i18n 多語言體系並建立 fallback 機制，優化頁面硬編碼文案和動態提示的國際化容錯能力。"
+    ],
           "tags": [
             "uni-app",
             "Vue2",
@@ -638,7 +620,7 @@ window.profileData = {
         },
         {
           "title": "極小鋪 SaaS 與商家端管理系統",
-          "period": "2020.10 - 2021.12",
+          "period": "2018.08 - 2021.12",
           "subtitle": "深圳即客便利店管理有限公司 · 商家端 PC/H5 / SaaS 後台 / 無人設備管理",
           "description": "負責極小鋪 SaaS 和商家端後台開發，專案包含商品、分類、店鋪、訂單、代理商、設備、門店、權限角色、客服排班、公眾號等管理能力。",
           "bullets": [
@@ -660,7 +642,7 @@ window.profileData = {
         },
         {
           "title": "即客優選小程式商城",
-          "period": "2020.10 - 2021.12",
+          "period": "2018.08 - 2021.12",
           "subtitle": "深圳即客便利店管理有限公司 · UniAPP 重構 / 原生小程式 / 多模板商城",
           "description": "參與即客優選小程式平台改版，將原商城能力使用 uni-app 進行模組化重構，為不同客戶提供不同模板樣式，形成類似有贊的小程式框架能力。",
           "bullets": [
@@ -680,8 +662,8 @@ window.profileData = {
         },
         {
           "title": "車悠悠專案後台管理系統",
-          "period": "2018.08 - 2020.09",
-          "subtitle": "深圳市中欣永泰科技有限公司 · Vue 後台管理系統",
+          "period": "2018.08 - 2021.12",
+          "subtitle": "深圳即客便利店管理有限公司 · Vue 後台管理系統",
           "description": "基於 Vue 全家桶搭建後台管理系統，包含登入、使用者管理、產品內容管理、個人資訊展示和角色權限管理等功能。",
           "bullets": [
             "使用 vue-cli、Vue Router 和元件化方式實現 SPA 頁面，結合 Element UI 與 Less 完成後台頁面開發。",
@@ -815,13 +797,14 @@ window.profileData = {
           "role": "Frontend Engineer",
           "period": "2025.08 - Present",
           "summary": "Responsible for the digital wallet, cross-border payment app, and desktop IM client",
-          "bullets": [
-            "Built the THKPay digital asset wallet / cross-border payment app frontend, covering wallet assets, on-chain transfers, cross-border remittance, credit cards, KYC, account security, and multilingual flows.",
-            "Built the XHJ IM PC client with real-time chat, session management, contact/group management, rich text editing, file uploads, Markdown notes, and Electron desktop adaptation.",
-            "Joined requirement reviews and technical design discussions, handling API failures, async states, permission checks, long-connection stability, and cross-platform compatibility.",
-            "Extracted reusable business components, request layers, WebSocket modules, and state management modules to improve reuse, stability, and maintainability."
-          ]
-        },
+    "bullets": [
+      "Built the THKPay digital asset wallet / cross-border payment app frontend, covering wallet assets, on-chain transfers, cross-border remittance, credit cards, KYC, account security, and multilingual flows.",
+      "Built the XHJ IM PC client with real-time chat, session management, contact/group management, rich text editing, file uploads, Markdown notes, and Electron desktop adaptation.",
+      "Joined requirement reviews and technical design discussions, handling API failures, async states, permission checks, long-connection stability, and cross-platform compatibility.",
+      "Used AI development tools to assist with page implementation, component extraction, code generation, issue investigation, and copy organization, improving delivery speed in complex business scenarios.",
+      "Extracted reusable business components, request layers, WebSocket modules, and state management modules to improve reuse, stability, and maintainability."
+    ]
+  },
         {
           "company": "Shenzhen Hengdao Zhirong Information Technology Co., Ltd. (assigned to Chuangjin Hexin Fund)",
           "role": "Frontend Engineer",
@@ -837,25 +820,13 @@ window.profileData = {
         {
           "company": "Shenzhen Jike Convenience Store Management Co., Ltd.",
           "role": "Frontend Engineer",
-          "period": "2020.10 - 2021.12",
-          "summary": "Worked on the Jike Preferred mini program, SaaS backend, and merchant PC/H5 admin system",
+          "period": "2018.08 - 2021.12",
+          "summary": "Worked on the Jike Preferred mini program, Jixiaopu SaaS, merchant H5/PC admin systems, and backend projects",
           "bullets": [
             "Delivered frontend interactions for the Jike Preferred mini program, the Jixiaopu system, SaaS PC/H5 apps, and WeChat mini programs.",
-            "Refactored the Jike Preferred mini program mall with uni-app, supporting multiple client templates and modules such as home, category, product detail, search, group deals, pre-sales, and flash sales.",
+            "Refactored the Jike Preferred mini program mall with uni-app, supporting multiple client templates and modules such as home, category, detail, search, group deals, pre-sales, and flash sales.",
             "Built the merchant admin system on a Ruoyi / vue-element-admin style framework, covering products, orders, stores, devices, agents, and permissions.",
-            "Wrapped shared tables, dictionaries, permissions, request interceptors, response handling, and business components to improve admin page reuse."
-          ]
-        },
-        {
-          "company": "Shenzhen Zhongxinyongtai Technology Co., Ltd.",
-          "role": "WEB Frontend Engineer",
-          "period": "2018.08 - 2020.09",
-          "summary": "Built Web, mobile, mini program, and admin frontend features",
-          "bullets": [
-            "Owned frontend architecture, technical design, and implementation, translating product requirements and interaction specs into working pages.",
-            "Participated in Web, mobile, and WeChat mini program development, handling interaction, API integration, and performance tuning.",
-            "Worked closely with design and backend teams to ship reliable software and continuously refine user experience.",
-            "Contributed to the Cheyouyou admin system and responsive websites, building experience in permission routing, request interception, table components, and admin pages."
+            "Worked across backend admin and multi-platform projects, building shared tables, dictionaries, permissions, request interception, error handling, and reusable business components."
           ]
         }
       ],
@@ -896,6 +867,7 @@ window.profileData = {
       "skillDetails": [
         "Strong in vanilla JavaScript and ES6, and able to solve complex business problems with patterns, componentization, and modular design.",
         "Experienced with Vue 2 and Vue 3; also maintained React and Angular projects, and worked on uni-app, native mini programs, H5, PC admin apps, and Electron desktop apps.",
+        "Skilled with a range of AI development tools, and able to use workflows such as Figma MCP and Codex for page refactoring, code generation, issue investigation, and faster end-to-end project delivery.",
         "Comfortable with Element UI, Ant Design, Vant, Naive UI, and uView UI component libraries and their custom wrapping.",
         "Familiar with native WeChat/Alipay mini program development, WeChat JSSDK, WeChat auth, Sensors Analytics tracking, H5 multi-end adaptation, and mini program deep links.",
         "Experienced in Axios request wrapping, token injection, login expiration handling, API error handling, dictionary configs, permission routing, and navigation guards.",
@@ -908,12 +880,13 @@ window.profileData = {
           "period": "2025.08 - Present",
           "subtitle": "Shenzhen Missyue Technology Co., Ltd. · uni-app multi-platform financial app",
           "description": "Frontend development for a digital asset wallet and cross-border payments app, covering wallet assets, on-chain transfers, fiat remittance, currency exchange, credit cards, KYC, referral rewards, and multilingual support across H5, app, and mini program platforms.",
-          "bullets": [
-            "Delivered wallet home, asset accounts, coin detail, and transaction record modules for digital and fiat asset display, refresh, filtering, and detail views.",
-            "Built on-chain transfer, platform transfer, recharge, swap, and exchange flows across ETH, BSC, TRON, and other multi-chain asset scenarios.",
-            "Owned the credit card module, including virtual/physical card applications, activation, details, bills, top-up, lock, cancel, and PIN reset flows.",
-            "Integrated vue-i18n and fallback handling to reduce hard-coded copy and improve localization resilience."
-          ],
+    "bullets": [
+      "Delivered wallet home, asset accounts, coin detail, and transaction record modules for digital and fiat asset display, refresh, filtering, and detail views.",
+      "Built on-chain transfer, platform transfer, recharge, swap, and exchange flows across ETH, BSC, TRON, and other multi-chain asset scenarios.",
+      "Owned the credit card module, including virtual/physical card applications, activation, details, bills, top-up, lock, cancel, and PIN reset flows.",
+      "Used the Figma MCP workflow together with Codex to quickly refactor and rebuild product pages with strong design fidelity, improving delivery speed and supporting commercialization and revenue goals.",
+      "Integrated vue-i18n and fallback handling to reduce hard-coded copy and improve localization resilience."
+    ],
           "tags": [
             "uni-app",
             "Vue2",
@@ -996,7 +969,7 @@ window.profileData = {
         },
         {
           "title": "Jixiaopu SaaS and Merchant Admin System",
-          "period": "2020.10 - 2021.12",
+          "period": "2018.08 - 2021.12",
           "subtitle": "Shenzhen Jike Convenience Store Management Co., Ltd. · merchant admin PC/H5 / SaaS backend / unattended device management",
           "description": "Built the SaaS and merchant admin backend for products, categories, stores, orders, agents, devices, roles, shifts, and public account management.",
           "bullets": [
@@ -1018,7 +991,7 @@ window.profileData = {
         },
         {
           "title": "Jike Preferred Mini Program Mall",
-          "period": "2020.10 - 2021.12",
+          "period": "2018.08 - 2021.12",
           "subtitle": "Shenzhen Jike Convenience Store Management Co., Ltd. · uni-app refactor / native mini program / multi-template mall",
           "description": "Refactored the mini program mall with uni-app, enabling multiple customer templates and a modular shopping experience similar to a SaaS mall framework.",
           "bullets": [
@@ -1038,8 +1011,8 @@ window.profileData = {
         },
         {
           "title": "Cheyouyou Admin Management System",
-          "period": "2018.08 - 2020.09",
-          "subtitle": "Shenzhen Zhongxinyongtai Technology Co., Ltd. · Vue admin system",
+          "period": "2018.08 - 2021.12",
+          "subtitle": "Shenzhen Jike Convenience Store Management Co., Ltd. · Vue admin system",
           "description": "Built a Vue-based admin system with login, user management, content management, profile display, and role permission management.",
           "bullets": [
             "Used vue-cli, Vue Router, and component-based SPA architecture together with Element UI and Less.",
