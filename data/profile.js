@@ -77,27 +77,15 @@ window.profileData = {
       ]
     },
     {
-      "company": "深圳市御猫科技有限公司",
-      "role": "前端开发工程师",
-      "period": "2024.04 - 2025.08",
-      "summary": "负责 CRM 系统、客服系统、猫嘀嘀 H5 客户端与多端项目维护",
-      "bullets": [
-        "负责公司 CRM 系统、客服系统、猫嘀嘀 H5 客户端开发，支持客户筛选、贷款线索流转、一对一服务和业务跟进。",
-        "参与需求可行性和开发周期评估，在评审阶段针对需求和交互逻辑提出问题与优化方案。",
-        "负责 PC、H5、小程序项目维护，对公共代码、可复用模块、字典配置和业务组件进行封装。",
-        "接入 Sentry 进行性能与异常监控，配合 CDN、图片压缩、请求优化、异步组件加载，将核心页面加载时长从约 3s 优化至约 1s。"
-      ]
-    },
-    {
       "company": "深圳恒道智融信息技术有限公司（外派创金合信基金）",
       "role": "前端开发工程师",
-      "period": "2021.12 - 2024.03",
-      "summary": "负责创金合信基金交易、实时估值、零售中台与多端活动项目",
+      "period": "2021.12 - 2025.08",
+      "summary": "负责创金合信基金交易、实时估值、零售中台、CRM、客服系统与 H5 客户端项目",
       "bullets": [
         "主要负责创金合信基金交易小程序内活动与交易功能，覆盖凡泰版本交易、PC 零售中台、支付宝小程序、微信、H5、天天基金等多端应用。",
-        "参与微服务后台管理系统、小程序快速跳转、运营配置、基金估值走势、基金转换、定投交易和活动 H5 等模块开发。",
-        "基于 uni-app、Vue、Element UI、AntF2、lodash 等技术完成多端页面与后台管理模块建设。",
-        "接入神策埋点追踪用户行为，支持业务部门分析转化路径、用户痛点和客诉问题。"
+        "参与微服务后台管理系统、小程序快速跳转、运营配置、基金估值走势、基金转换、定投交易、活动 H5，以及 CRM、客服系统、猫嘀嘀 H5 客户端等模块开发。",
+        "基于 uni-app、Vue、Element UI、AntF2、lodash 等技术完成多端页面与后台管理模块建设，并维护 PC、H5、小程序项目的公共代码、字典配置与业务组件。",
+        "参与需求可行性与开发周期评估，针对需求和交互逻辑提出优化方案，并接入神策埋点、Sentry、CDN、图片压缩、请求优化和异步组件加载等方案提升稳定性与性能。"
       ]
     },
     {
@@ -217,8 +205,8 @@ window.profileData = {
     },
     {
       "title": "猫嘀嘀 CRM 系统",
-      "period": "2024.04 - 2025.08",
-      "subtitle": "深圳市御猫科技有限公司 · CRM / 客服系统 / H5 客户端",
+      "period": "2021.12 - 2025.08",
+      "subtitle": "深圳恒道智融信息技术有限公司（外派创金合信基金） · CRM / 客服系统 / H5 客户端",
       "description": "负责 CRM 系统、客服系统和猫嘀嘀 H5 客户端开发，支持客户筛选、贷款线索流转、一对一服务、运营活动二维码配置和业务效率提升。",
       "bullets": [
         "对项目中可复用模块进行封装，减少重复代码并统一页面交互体验。",
@@ -239,7 +227,7 @@ window.profileData = {
     },
     {
       "title": "创金合信基金交易与零售中台项目",
-      "period": "2021.12 - 2024.03",
+      "period": "2021.12 - 2025.08",
       "subtitle": "深圳恒道智融信息技术有限公司（外派创金合信基金） · 基金交易 / 实时估值 / 零售中台",
       "description": "参与创金合信基金多端应用开发，覆盖凡泰版本基金交易、天天基金实时估值、微信/支付宝/H5 多端活动、PC 零售中台管理和运营配置后台。",
       "bullets": [
@@ -322,31 +310,12 @@ window.profileData = {
         "权限路由"
       ],
       "icon": "./images/icons/dashboard.svg"
-    },
-    {
-      "title": "上海申克加注事业部官网",
-      "period": "2018.08 - 2020.09",
-      "subtitle": "深圳市中欣永泰科技有限公司 · 响应式官网 / PC 端页面",
-      "description": "负责响应式官网页面开发，使用 Bootstrap 适配不同尺寸设备，并完成页面数据渲染、轮播和图片懒加载等能力。",
-      "bullets": [
-        "根据设计图使用 HTML、CSS、jQuery 完成页面开发与响应式布局。",
-        "使用 Ajax 与 template 模板引擎实现数据渲染和局部刷新。",
-        "结合 Swiper 和图片懒加载优化官网浏览体验。"
-      ],
-      "tags": [
-        "jQuery",
-        "Bootstrap",
-        "Swiper",
-        "Ajax",
-        "响应式"
-      ],
-      "icon": "./images/icons/website.svg"
     }
   ],
   "education": [
     {
       "title": "广州航海学院",
-      "subtitle": "计算机应用技术 · 本科",
+      "subtitle": "计算机应用技术 · 本科"
     },
     {
       "title": "计算机程序设计员",
@@ -496,27 +465,15 @@ window.profileData = {
           ]
         },
         {
-          "company": "深圳市御貓科技有限公司",
-          "role": "前端開發工程師",
-          "period": "2024.04 - 2025.08",
-          "summary": "負責 CRM 系統、客服系統、貓嘀嘀 H5 客戶端與多端專案維護",
-          "bullets": [
-            "負責公司 CRM 系統、客服系統、貓嘀嘀 H5 客戶端開發，支援客戶篩選、貸款線索流轉、一對一服務和業務跟進。",
-            "參與需求可行性和開發週期評估，在評審階段針對需求和互動邏輯提出問題與優化方案。",
-            "負責 PC、H5、小程式專案維護，對公共程式碼、可複用模組、字典配置和業務元件進行封裝。",
-            "接入 Sentry 進行效能與異常監控，配合 CDN、圖片壓縮、請求優化、非同步元件載入，將核心頁面載入時長從約 3s 優化至約 1s。"
-          ]
-        },
-        {
           "company": "深圳恆道智融資訊技術有限公司（外派創金合信基金）",
           "role": "前端開發工程師",
-          "period": "2021.12 - 2024.03",
-          "summary": "負責創金合信基金交易、即時估值、零售中台與多端活動專案",
+          "period": "2021.12 - 2025.08",
+          "summary": "負責創金合信基金交易、即時估值、零售中台、CRM、客服系統與 H5 客戶端專案",
           "bullets": [
-            "主要負責創金合信基金小程式內活動與交易功能，涵蓋凡泰版本交易、PC 零售中台、支付寶小程式、微信、H5、天天基金等多端應用。",
-            "參與微服務後台管理系統、小程式快速跳轉、運營配置、基金估值走勢、基金轉換、定投交易和活動 H5 等模組開發。",
-            "基於 uni-app、Vue、Element UI、AntF2、lodash 等技術完成多端頁面與後台管理模組建設。",
-            "接入神策埋點追蹤使用者行為，支援業務部門分析轉化路徑、使用者痛點和客訴問題。"
+            "主要負責創金合信基金交易小程式內活動與交易功能，覆蓋凡泰版本交易、PC 零售中台、支付寶小程式、微信、H5、天天基金等多端應用。",
+            "參與微服務後台管理系統、小程式快速跳轉、營運配置、基金估值走勢、基金轉換、定投交易、活動 H5，以及 CRM、客服系統、貓嘀嘀 H5 客戶端等模組開發。",
+            "基於 uni-app、Vue、Element UI、AntF2、lodash 等技術完成多端頁面與後台管理模組建設，並維護 PC、H5、小程式專案的公共程式碼、字典配置與業務元件。",
+            "參與需求可行性與開發週期評估，針對需求和互動邏輯提出優化方案，並接入神策埋點、Sentry、CDN、圖片壓縮、請求優化和非同步元件載入等方案提升穩定性與效能。"
           ]
         },
         {
@@ -636,8 +593,8 @@ window.profileData = {
         },
         {
           "title": "貓嘀嘀 CRM 系統",
-          "period": "2024.04 - 2025.08",
-          "subtitle": "深圳市御貓科技有限公司 · CRM / 客服系統 / H5 客戶端",
+          "period": "2021.12 - 2025.08",
+          "subtitle": "深圳恆道智融資訊技術有限公司（外派創金合信基金） · CRM / 客服系統 / H5 客戶端",
           "description": "負責 CRM 系統、客服系統和貓嘀嘀 H5 客戶端開發，支援客戶篩選、貸款線索流轉、一對一服務、運營活動二維碼配置和業務效率提升。",
           "bullets": [
             "對專案中可複用模組進行封裝，減少重複程式碼並統一頁面互動體驗。",
@@ -658,7 +615,7 @@ window.profileData = {
         },
         {
           "title": "創金合信基金交易與零售中台專案",
-          "period": "2021.12 - 2024.03",
+          "period": "2021.12 - 2025.08",
           "subtitle": "深圳恆道智融資訊技術有限公司（外派創金合信基金） · 基金交易 / 即時估值 / 零售中台",
           "description": "參與創金合信基金多端應用開發，涵蓋凡泰版本基金交易、天天基金即時估值、微信/支付寶/H5 多端活動、PC 零售中台管理和運營配置後台。",
           "bullets": [
@@ -741,31 +698,12 @@ window.profileData = {
             "權限路由"
           ],
           "icon": "./images/icons/dashboard.svg"
-        },
-        {
-          "title": "上海申克加注事業部官網",
-          "period": "2018.08 - 2020.09",
-          "subtitle": "深圳市中欣永泰科技有限公司 · 響應式官網 / PC 端頁面",
-          "description": "負責響應式官網頁面開發，使用 Bootstrap 適配不同尺寸裝置，並完成頁面資料渲染、輪播和圖片懶載入等能力。",
-          "bullets": [
-            "根據設計圖使用 HTML、CSS、jQuery 完成頁面開發與響應式版面配置。",
-            "使用 Ajax 與 template 模板引擎實現資料渲染和局部重新整理。",
-            "結合 Swiper 和圖片懶載入優化官網瀏覽體驗。"
-          ],
-          "tags": [
-            "jQuery",
-            "Bootstrap",
-            "Swiper",
-            "Ajax",
-            "響應式"
-          ],
-          "icon": "./images/icons/website.svg"
         }
       ],
       "education": [
         {
           "title": "廣州航海學院",
-          "subtitle": "計算機應用技術 · 本科",
+          "subtitle": "計算機應用技術 · 本科"
         },
         {
           "title": "計算機程式設計員",
@@ -885,27 +823,15 @@ window.profileData = {
           ]
         },
         {
-          "company": "Shenzhen Yimao Technology Co., Ltd.",
-          "role": "Frontend Engineer",
-          "period": "2024.04 - 2025.08",
-          "summary": "Maintained CRM, customer service, H5 client, and multi-platform projects",
-          "bullets": [
-            "Developed CRM, customer service, and H5 client features for lead filtering, loan lead flow, one-to-one service, and business follow-up.",
-            "Participated in feasibility and timeline reviews, raising questions and optimization ideas during requirement discussions.",
-            "Maintained PC, H5, and mini program projects, wrapping shared code, reusable modules, dictionary configs, and business components.",
-            "Integrated Sentry for performance and exception monitoring, plus CDN, image compression, request optimization, and async component loading to cut key page load time from about 3s to about 1s."
-          ]
-        },
-        {
           "company": "Shenzhen Hengdao Zhirong Information Technology Co., Ltd. (assigned to Chuangjin Hexin Fund)",
           "role": "Frontend Engineer",
-          "period": "2021.12 - 2024.03",
-          "summary": "Worked on fund trading, real-time valuation, retail middle platform, and campaign projects",
+          "period": "2021.12 - 2025.08",
+          "summary": "Worked on fund trading, real-time valuation, retail middle platform, CRM, customer service, and H5 client projects",
           "bullets": [
             "Mainly delivered fund trading and campaign features for the Chuangjin Hexin mini program, covering Fantai edition trading, PC retail middle platform, Alipay mini program, WeChat, H5, and Tiantian Fund.",
-            "Implemented microservice admin modules, mini program deep links,运营 configuration, fund valuation charts, fund conversion, recurring investment, and event H5 flows.",
-            "Built multi-platform pages and admin modules with uni-app, Vue, Element UI, AntF2, and lodash.",
-            "Added Sensors Analytics tracking to help business teams analyze conversion paths, user pain points, and complaint issues."
+            "Implemented microservice admin modules, mini program deep links, operations configuration, fund valuation charts, fund conversion, recurring investment, event H5 flows, as well as CRM, customer service, and the Cat DiDi H5 client.",
+            "Built multi-platform pages and admin modules with uni-app, Vue, Element UI, AntF2, and lodash, while maintaining shared code, dictionary configs, and business components across PC, H5, and mini program projects.",
+            "Joined feasibility and timeline reviews, proposed interaction optimizations, and integrated Sensors Analytics, Sentry, CDN, image compression, request optimization, and async loading to improve stability and performance."
           ]
         },
         {
@@ -1025,8 +951,8 @@ window.profileData = {
         },
         {
           "title": "Cat DiDi CRM System",
-          "period": "2024.04 - 2025.08",
-          "subtitle": "Shenzhen Yimao Technology Co., Ltd. · CRM / customer service / H5 client",
+          "period": "2021.12 - 2025.08",
+          "subtitle": "Shenzhen Hengdao Zhirong Information Technology Co., Ltd. (assigned to Chuangjin Hexin Fund) · CRM / customer service / H5 client",
           "description": "Developed CRM, customer service, and H5 client features supporting lead filtering, loan lead flow, one-to-one service, and operational campaign QR code configuration.",
           "bullets": [
             "Wrapped reusable modules to reduce duplication and unify user interactions.",
@@ -1047,7 +973,7 @@ window.profileData = {
         },
         {
           "title": "Chuangjin Hexin Fund Trading and Retail Middle Platform",
-          "period": "2021.12 - 2024.03",
+          "period": "2021.12 - 2025.08",
           "subtitle": "Shenzhen Hengdao Zhirong Information Technology Co., Ltd. (assigned to Chuangjin Hexin Fund) · fund trading / real-time valuation / retail middle platform",
           "description": "Participated in multi-platform fund trading and retail middle platform development, covering fund trading, real-time valuation, WeChat/Alipay/H5 campaign pages, and PC admin tools.",
           "bullets": [
@@ -1130,31 +1056,12 @@ window.profileData = {
             "Permission Routing"
           ],
           "icon": "./images/icons/dashboard.svg"
-        },
-        {
-          "title": "Shanghai Shenke Additive Division Official Website",
-          "period": "2018.08 - 2020.09",
-          "subtitle": "Shenzhen Zhongxinyongtai Technology Co., Ltd. · responsive website / PC pages",
-          "description": "Implemented responsive website pages with Bootstrap, including data rendering, carousels, and image lazy loading.",
-          "bullets": [
-            "Built responsive pages from design files with HTML, CSS, and jQuery.",
-            "Used Ajax and a template engine for data rendering and partial refreshes.",
-            "Combined Swiper and lazy loading to improve the browsing experience."
-          ],
-          "tags": [
-            "jQuery",
-            "Bootstrap",
-            "Swiper",
-            "Ajax",
-            "Responsive"
-          ],
-          "icon": "./images/icons/website.svg"
         }
       ],
       "education": [
         {
           "title": "Guangzhou Maritime University",
-          "subtitle": "Computer Application Technology · Bachelor's degree",
+          "subtitle": "Computer Application Technology · Bachelor's degree"
         },
         {
           "title": "Computer Programmer",
