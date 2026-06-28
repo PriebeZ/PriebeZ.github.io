@@ -69,16 +69,16 @@ window.profileData = {
       "role": "前端开发工程师",
       "period": "2025.08 - 至今",
       "summary": "负责数字资产钱包、跨境支付 App 与 PC 端即时通讯系统开发",
-    "bullets": [
-      "负责 THKPay 数字资产钱包 / 跨境支付 App 前端开发，覆盖钱包资产、链上转账、跨境汇款、信用卡、KYC、账户安全、多语言等核心业务场景。",
-      "负责 XHJ IM 即时通讯系统 PC 端开发，完成实时聊天、会话管理、联系人/群组管理、富文本编辑、文件上传、Markdown 笔记与 Electron 桌面端适配。",
-      "参与产品需求评审和技术方案设计，结合金融交易与 IM 实时通信场景处理接口异常、异步状态、权限校验、长连接稳定性和多端兼容问题。",
-      "结合 AI 开发工具辅助页面搭建、组件封装、代码生成、问题排查与文案整理，提升复杂业务场景下的开发效率与交付速度。",
-      "封装通用业务组件、请求层、WebSocket 通信模块和状态管理模块，提升复杂业务页面的复用性、稳定性和维护效率。"
-    ]
-  },
+      "bullets": [
+        "负责 THKPay 数字资产钱包 / 跨境支付 App 前端开发，覆盖钱包资产、链上转账、跨境汇款、信用卡、KYC、账户安全、多语言等核心业务场景。",
+        "负责 XHJ IM 即时通讯系统 PC 端开发，完成实时聊天、会话管理、联系人/群组管理、富文本编辑、文件上传、Markdown 笔记与 Electron 桌面端适配。",
+        "参与产品需求评审和技术方案设计，结合金融交易与 IM 实时通信场景处理接口异常、异步状态、权限校验、长连接稳定性和多端兼容问题。",
+        "结合 AI 开发工具辅助页面搭建、组件封装、代码生成、问题排查与文案整理，提升复杂业务场景下的开发效率与交付速度。",
+        "封装通用业务组件、请求层、WebSocket 通信模块和状态管理模块，提升复杂业务页面的复用性、稳定性和维护效率。"
+      ]
+    },
     {
-      "company": "深圳恒道智融信息技术有限公司（外派创金合信基金）",
+      "company": "创金合信基金",
       "role": "前端开发工程师",
       "period": "2021.12 - 2025.08",
       "summary": "负责创金合信基金交易、实时估值、零售中台、CRM、客服系统与 H5 客户端项目",
@@ -152,13 +152,13 @@ window.profileData = {
       "period": "2025.08 - 至今",
       "subtitle": "深圳米斯悦科技有限公司 · uni-app 多端金融支付应用",
       "description": "负责数字资产钱包及跨境支付应用前端开发，项目覆盖钱包资产管理、链上转账、法币汇款、换汇、信用卡、KYC、邀请码返利、多语言切换等核心场景，支持 H5、App、小程序多端运行。",
-    "bullets": [
-      "完成钱包首页、资产账户、币种详情、账单记录等模块，实现数字资产与法币资产展示、刷新、筛选和明细查看。",
-      "参与链上转账、平台转账、充值、闪兑、换汇等交易流程开发，支持 ETH、BSC、TRON 等多链资产场景。",
-      "负责信用卡模块，包括虚拟卡/实体卡申请、绑卡激活、卡详情、账单、转入、锁卡、注销、重置 PIN 等流程。",
-      "使用 Figma MCP 工具链接 Codex，快速完成产品页面重构与设计还原，提升前端交付效率，支撑产品商业化落地与盈利目标实现。",
-      "接入 vue-i18n 多语言体系并建立 fallback 机制，优化页面硬编码文案和动态提示的国际化容错能力。"
-    ],
+      "bullets": [
+        "完成钱包首页、资产账户、币种详情、账单记录等模块，实现数字资产与法币资产展示、刷新、筛选和明细查看。",
+        "参与链上转账、平台转账、充值、闪兑、换汇等交易流程开发，支持 ETH、BSC、TRON 等多链资产场景。",
+        "负责信用卡模块，包括虚拟卡/实体卡申请、绑卡激活、卡详情、账单、转入、锁卡、注销、重置 PIN 等流程。",
+        "使用 Figma MCP 工具链接 Codex，快速完成产品页面重构与设计还原，提升前端交付效率，支撑产品商业化落地与盈利目标实现。",
+        "接入 vue-i18n 多语言体系并建立 fallback 机制，优化页面硬编码文案和动态提示的国际化容错能力。"
+      ],
       "tags": [
         "uni-app",
         "Vue2",
@@ -195,31 +195,59 @@ window.profileData = {
       "icon": "./images/icons/chat.svg"
     },
     {
+      "title": "HX Smart 智能家居小程序",
+      "period": "近期项目",
+      "subtitle": "uni-app / Vue3 / MQTT / IoT 设备控制",
+      "description": "基于 uni-app 与 Vue3 开发的智能家居小程序，覆盖家庭、房间、网关、设备、场景、自动化、酒店房间与第三方摄像头等 IoT 场景，支持微信小程序与 H5 多端运行。",
+      "bullets": [
+        "负责智能家居核心页面与业务流程开发，包含家庭创建/加入、房间管理、设备添加、设备分组、场景列表、一键执行与智能联动配置。",
+        "封装 MQTT 通信链路，支持网关连接、消息发布、订阅回调、消息 ID 去重、页面级回调分发、断线重连与设备状态实时上报。",
+        "结合 Vuex 管理设备、房间、场景、定时任务、自动化任务、成员角色等全局状态，并通过 MQTT 回包同步更新页面数据。",
+        "实现多类型设备控制与跳转适配，覆盖灯光、开关、窗帘、传感器、门锁、空调、语音红外、消毒机、摄像头、道闸等设备。",
+        "接入第三方摄像头能力，完成设备列表、添加/删除、萤石 accessToken 刷新、嵌入式小程序直播跳转和云台相关接口对接。",
+        "参与酒店管理模块建设，支持酒店、区域、房间、门锁等管理场景，提升项目在家庭与酒店两类空间下的复用能力。"
+      ],
+      "tags": [
+        "uni-app",
+        "Vue3",
+        "Vuex",
+        "MQTT",
+        "IoT",
+        "uView UI",
+        "微信小程序",
+        "H5"
+      ],
+      "icon": "./images/icons/website.svg"
+    },
+    {
       "title": "猫嘀嘀 CRM 系统",
       "period": "2021.12 - 2025.08",
-      "subtitle": "深圳恒道智融信息技术有限公司（外派创金合信基金） · CRM / 客服系统 / H5 客户端",
-      "description": "负责 CRM 系统、客服系统和猫嘀嘀 H5 客户端开发，支持客户筛选、贷款线索流转、一对一服务、运营活动二维码配置和业务效率提升。",
+      "subtitle": "Vue3 + Vite + Element Plus CRM 后台",
+      "description": "基于 Vue3、Vite、Element Plus 和 Pinia 开发的 CRM 后台系统，围绕贷款客户线索、公海资源池、客户跟进、上门邀约、签单进件、渠道核算和经营报表等流程，支撑销售团队从线索分配到成交统计的全链路管理。",
       "bullets": [
-        "对项目中可复用模块进行封装，减少重复代码并统一页面交互体验。",
-        "将接口返回的下拉数据进行字典化封装，并与项目已有字典体系融合。",
-        "使用策略模式支持后台配置生成二维码后快速上线运营、推广活动，提升活动投放效率。",
-        "接入 Sentry 进行性能与异常监控，配合 CDN、图片压缩、请求优化、异步组件加载优化页面加载速度。"
+        "负责线索管理、我的客户、客户详情等核心模块开发，支持客户筛选、分派/重分派、退回公海、客户分组、跟进记录、敏感信息查看和批量转入客服 CRM 等业务操作。",
+        "建设客户流转相关能力，串联线索详情、流转记录、上门信息、待办记录、资产评估、短信记录、通话记录、签单进件和工单创建等页面与接口。",
+        "基于 Element Plus 封装高频后台交互，包括复杂查询表单、动态列显隐、分页表格、批量选择、弹窗表单、权限按钮和字典下拉，提升后台页面交付效率。",
+        "维护 Axios 请求层与权限路由体系，处理 Token 注入、重复提交拦截、登录过期、文件下载、接口异常提示和基于角色的动态菜单/按钮权限。",
+        "参与经营报表与渠道核算模块开发，支持按渠道、部门、员工维度查看呼出、跟进、上门、签单、进件、成交金额、创收金额等关键指标。",
+        "结合 OSS 文件能力、Office/PDF 预览、富文本编辑、Excel 导出和 ECharts 数据展示，完善合同、附件、统计看板等运营管理场景。"
       ],
       "tags": [
         "Vue3",
-        "HTML5",
-        "jQuery",
-        "CSS3",
-        "Sentry",
-        "H5",
-        "CRM"
+        "Vite",
+        "Element Plus",
+        "Pinia",
+        "Axios",
+        "ECharts",
+        "CRM",
+        "若依"
       ],
       "icon": "./images/icons/crm.svg"
     },
     {
       "title": "创金合信基金交易与零售中台项目",
       "period": "2021.12 - 2025.08",
-      "subtitle": "深圳恒道智融信息技术有限公司（外派创金合信基金） · 基金交易 / 实时估值 / 零售中台",
+      "subtitle": "基金交易 / 实时估值 / 零售中台",
       "description": "参与创金合信基金多端应用开发，覆盖凡泰版本基金交易、天天基金实时估值、微信/支付宝/H5 多端活动、PC 零售中台管理和运营配置后台。",
       "bullets": [
         "负责创金合信基金小程序基金交易应用，支持 0 折购基金、活动参与、直播投教、实时收益分析和估值等功能。",
@@ -448,16 +476,16 @@ window.profileData = {
           "role": "前端開發工程師",
           "period": "2025.08 - 至今",
           "summary": "負責數位資產錢包、跨境支付 App 與 PC 端即時通訊系統開發",
-    "bullets": [
-      "負責 THKPay 數位資產錢包 / 跨境支付 App 前端開發，涵蓋錢包資產、鏈上轉帳、跨境匯款、信用卡、KYC、帳戶安全、多語系等核心業務場景。",
-      "負責 XHJ IM 即時通訊系統 PC 端開發，完成即時聊天、會話管理、聯絡人/群組管理、富文字編輯、檔案上傳、Markdown 筆記與 Electron 桌面端適配。",
-      "參與產品需求評審和技術方案設計，結合金融交易與 IM 即時通訊場景處理介面異常、非同步狀態、權限校驗、長連線穩定性和多端相容問題。",
-      "結合 AI 開發工具輔助頁面搭建、元件封裝、程式碼生成、問題排查與文案整理，提升複雜業務場景下的開發效率與交付速度。",
-      "封裝通用業務元件、請求層、WebSocket 通訊模組和狀態管理模組，提升複雜業務頁面的複用性、穩定性和維護效率。"
-    ]
-  },
+          "bullets": [
+            "負責 THKPay 數位資產錢包 / 跨境支付 App 前端開發，涵蓋錢包資產、鏈上轉帳、跨境匯款、信用卡、KYC、帳戶安全、多語系等核心業務場景。",
+            "負責 XHJ IM 即時通訊系統 PC 端開發，完成即時聊天、會話管理、聯絡人/群組管理、富文字編輯、檔案上傳、Markdown 筆記與 Electron 桌面端適配。",
+            "參與產品需求評審和技術方案設計，結合金融交易與 IM 即時通訊場景處理介面異常、非同步狀態、權限校驗、長連線穩定性和多端相容問題。",
+            "結合 AI 開發工具輔助頁面搭建、元件封裝、程式碼生成、問題排查與文案整理，提升複雜業務場景下的開發效率與交付速度。",
+            "封裝通用業務元件、請求層、WebSocket 通訊模組和狀態管理模組，提升複雜業務頁面的複用性、穩定性和維護效率。"
+          ]
+        },
         {
-          "company": "深圳恆道智融資訊技術有限公司（外派創金合信基金）",
+          "company": "創金合信基金",
           "role": "前端開發工程師",
           "period": "2021.12 - 2025.08",
           "summary": "負責創金合信基金交易、即時估值、零售中台、CRM、客服系統與 H5 客戶端專案",
@@ -531,13 +559,13 @@ window.profileData = {
           "period": "2025.08 - 至今",
           "subtitle": "深圳米斯悅科技有限公司 · uni-app 多端金融支付應用",
           "description": "負責數位資產錢包及跨境支付應用前端開發，專案涵蓋錢包資產管理、鏈上轉帳、法幣匯款、換匯、信用卡、KYC、邀請碼返利、多語言切換等核心場景，支援 H5、App、小程式多端執行。",
-    "bullets": [
-      "完成錢包首頁、資產帳戶、幣種詳情、帳單記錄等模組，實現數位資產與法幣資產展示、重新整理、篩選和明細檢視。",
-      "參與鏈上轉帳、平台轉帳、充值、閃兌、換匯等交易流程開發，支援 ETH、BSC、TRON 等多鏈資產場景。",
-      "負責信用卡模組，包括虛擬卡/實體卡申請、綁卡啟用、卡詳情、帳單、轉入、鎖卡、註銷、重設 PIN 等流程。",
-      "使用 Figma MCP 工具串接 Codex，快速完成產品頁面重構與設計還原，提升前端交付效率，支撐產品商業化落地與盈利目標實現。",
-      "接入 vue-i18n 多語言體系並建立 fallback 機制，優化頁面硬編碼文案和動態提示的國際化容錯能力。"
-    ],
+          "bullets": [
+            "完成錢包首頁、資產帳戶、幣種詳情、帳單記錄等模組，實現數位資產與法幣資產展示、重新整理、篩選和明細檢視。",
+            "參與鏈上轉帳、平台轉帳、充值、閃兌、換匯等交易流程開發，支援 ETH、BSC、TRON 等多鏈資產場景。",
+            "負責信用卡模組，包括虛擬卡/實體卡申請、綁卡啟用、卡詳情、帳單、轉入、鎖卡、註銷、重設 PIN 等流程。",
+            "使用 Figma MCP 工具串接 Codex，快速完成產品頁面重構與設計還原，提升前端交付效率，支撐產品商業化落地與盈利目標實現。",
+            "接入 vue-i18n 多語言體系並建立 fallback 機制，優化頁面硬編碼文案和動態提示的國際化容錯能力。"
+          ],
           "tags": [
             "uni-app",
             "Vue2",
@@ -574,31 +602,59 @@ window.profileData = {
           "icon": "./images/icons/chat.svg"
         },
         {
+          "title": "HX Smart 智慧家居小程式",
+          "period": "近期專案",
+          "subtitle": "uni-app / Vue3 / MQTT / IoT 裝置控制",
+          "description": "基於 uni-app 與 Vue3 開發的智慧家居小程式，覆蓋家庭、房間、閘道、裝置、場景、自動化、酒店房間與第三方攝影機等 IoT 場景，支援微信小程式與 H5 多端運行。",
+          "bullets": [
+            "負責智慧家居核心頁面與業務流程開發，包含家庭建立/加入、房間管理、裝置新增、裝置分組、場景列表、一鍵執行與智慧聯動配置。",
+            "封裝 MQTT 通訊鏈路，支援閘道連線、訊息發布、訂閱回調、訊息 ID 去重、頁面級回調分發、斷線重連與裝置狀態即時上報。",
+            "結合 Vuex 管理裝置、房間、場景、定時任務、自動化任務、成員角色等全域狀態，並透過 MQTT 回包同步更新頁面資料。",
+            "實現多類型裝置控制與跳轉適配，覆蓋燈光、開關、窗簾、感測器、門鎖、空調、語音紅外、消毒機、攝影機、道閘等裝置。",
+            "接入第三方攝影機能力，完成裝置列表、新增/刪除、螢石 accessToken 刷新、嵌入式小程式直播跳轉和雲台相關介面對接。",
+            "參與酒店管理模組建設，支援酒店、區域、房間、門鎖等管理場景，提升專案在家庭與酒店兩類空間下的複用能力。"
+          ],
+          "tags": [
+            "uni-app",
+            "Vue3",
+            "Vuex",
+            "MQTT",
+            "IoT",
+            "uView UI",
+            "微信小程式",
+            "H5"
+          ],
+          "icon": "./images/icons/website.svg"
+        },
+        {
           "title": "貓嘀嘀 CRM 系統",
           "period": "2021.12 - 2025.08",
-          "subtitle": "深圳恆道智融資訊技術有限公司（外派創金合信基金） · CRM / 客服系統 / H5 客戶端",
-          "description": "負責 CRM 系統、客服系統和貓嘀嘀 H5 客戶端開發，支援客戶篩選、貸款線索流轉、一對一服務、運營活動二維碼配置和業務效率提升。",
+          "subtitle": "Vue3 + Vite + Element Plus CRM 後台",
+          "description": "基於 Vue3、Vite、Element Plus 和 Pinia 開發的 CRM 後台系統，圍繞貸款客戶線索、公海資源池、客戶跟進、上門邀約、簽單進件、渠道核算和經營報表等流程，支撐銷售團隊從線索分配到成交統計的全鏈路管理。",
           "bullets": [
-            "對專案中可複用模組進行封裝，減少重複程式碼並統一頁面互動體驗。",
-            "將介面返回的下拉資料進行字典化封裝，並與專案已有字典體系融合。",
-            "使用策略模式支援後台配置生成二維碼後快速上線運營、推廣活動，提升活動投放效率。",
-            "接入 Sentry 進行效能與異常監控，配合 CDN、圖片壓縮、請求優化、非同步元件載入優化頁面載入速度。"
+            "負責線索管理、我的客戶、客戶詳情等核心模組開發，支援客戶篩選、分派/重分派、退回公海、客戶分組、跟進記錄、敏感資訊查看和批量轉入客服 CRM 等業務操作。",
+            "建設客戶流轉相關能力，串聯線索詳情、流轉記錄、上門資訊、待辦記錄、資產評估、簡訊記錄、通話記錄、簽單進件和工單建立等頁面與介面。",
+            "基於 Element Plus 封裝高頻後台互動，包括複雜查詢表單、動態列顯隱、分頁表格、批量選擇、彈窗表單、權限按鈕和字典下拉，提升後台頁面交付效率。",
+            "維護 Axios 請求層與權限路由體系，處理 Token 注入、重複提交攔截、登入過期、檔案下載、介面異常提示和基於角色的動態選單/按鈕權限。",
+            "參與經營報表與渠道核算模組開發，支援按渠道、部門、員工維度查看呼出、跟進、上門、簽單、進件、成交金額、創收金額等關鍵指標。",
+            "結合 OSS 檔案能力、Office/PDF 預覽、富文字編輯、Excel 匯出和 ECharts 資料展示，完善合同、附件、統計看板等營運管理場景。"
           ],
           "tags": [
             "Vue3",
-            "HTML5",
-            "jQuery",
-            "CSS3",
-            "Sentry",
-            "H5",
-            "CRM"
+            "Vite",
+            "Element Plus",
+            "Pinia",
+            "Axios",
+            "ECharts",
+            "CRM",
+            "若依"
           ],
           "icon": "./images/icons/crm.svg"
         },
         {
           "title": "創金合信基金交易與零售中台專案",
           "period": "2021.12 - 2025.08",
-          "subtitle": "深圳恆道智融資訊技術有限公司（外派創金合信基金） · 基金交易 / 即時估值 / 零售中台",
+          "subtitle": "基金交易 / 即時估值 / 零售中台",
           "description": "參與創金合信基金多端應用開發，涵蓋凡泰版本基金交易、天天基金即時估值、微信/支付寶/H5 多端活動、PC 零售中台管理和運營配置後台。",
           "bullets": [
             "負責創金合信基金小程式基金交易應用，支援 0 折購基金、活動參與、直播投教、即時收益分析和估值等功能。",
@@ -797,16 +853,16 @@ window.profileData = {
           "role": "Frontend Engineer",
           "period": "2025.08 - Present",
           "summary": "Responsible for the digital wallet, cross-border payment app, and desktop IM client",
-    "bullets": [
-      "Built the THKPay digital asset wallet / cross-border payment app frontend, covering wallet assets, on-chain transfers, cross-border remittance, credit cards, KYC, account security, and multilingual flows.",
-      "Built the XHJ IM PC client with real-time chat, session management, contact/group management, rich text editing, file uploads, Markdown notes, and Electron desktop adaptation.",
-      "Joined requirement reviews and technical design discussions, handling API failures, async states, permission checks, long-connection stability, and cross-platform compatibility.",
-      "Used AI development tools to assist with page implementation, component extraction, code generation, issue investigation, and copy organization, improving delivery speed in complex business scenarios.",
-      "Extracted reusable business components, request layers, WebSocket modules, and state management modules to improve reuse, stability, and maintainability."
-    ]
-  },
+          "bullets": [
+            "Built the THKPay digital asset wallet / cross-border payment app frontend, covering wallet assets, on-chain transfers, cross-border remittance, credit cards, KYC, account security, and multilingual flows.",
+            "Built the XHJ IM PC client with real-time chat, session management, contact/group management, rich text editing, file uploads, Markdown notes, and Electron desktop adaptation.",
+            "Joined requirement reviews and technical design discussions, handling API failures, async states, permission checks, long-connection stability, and cross-platform compatibility.",
+            "Used AI development tools to assist with page implementation, component extraction, code generation, issue investigation, and copy organization, improving delivery speed in complex business scenarios.",
+            "Extracted reusable business components, request layers, WebSocket modules, and state management modules to improve reuse, stability, and maintainability."
+          ]
+        },
         {
-          "company": "Shenzhen Hengdao Zhirong Information Technology Co., Ltd. (assigned to Chuangjin Hexin Fund)",
+          "company": "Chuangjin Hexin Fund",
           "role": "Frontend Engineer",
           "period": "2021.12 - 2025.08",
           "summary": "Worked on fund trading, real-time valuation, retail middle platform, CRM, customer service, and H5 client projects",
@@ -880,13 +936,13 @@ window.profileData = {
           "period": "2025.08 - Present",
           "subtitle": "Shenzhen Missyue Technology Co., Ltd. · uni-app multi-platform financial app",
           "description": "Frontend development for a digital asset wallet and cross-border payments app, covering wallet assets, on-chain transfers, fiat remittance, currency exchange, credit cards, KYC, referral rewards, and multilingual support across H5, app, and mini program platforms.",
-    "bullets": [
-      "Delivered wallet home, asset accounts, coin detail, and transaction record modules for digital and fiat asset display, refresh, filtering, and detail views.",
-      "Built on-chain transfer, platform transfer, recharge, swap, and exchange flows across ETH, BSC, TRON, and other multi-chain asset scenarios.",
-      "Owned the credit card module, including virtual/physical card applications, activation, details, bills, top-up, lock, cancel, and PIN reset flows.",
-      "Used the Figma MCP workflow together with Codex to quickly refactor and rebuild product pages with strong design fidelity, improving delivery speed and supporting commercialization and revenue goals.",
-      "Integrated vue-i18n and fallback handling to reduce hard-coded copy and improve localization resilience."
-    ],
+          "bullets": [
+            "Delivered wallet home, asset accounts, coin detail, and transaction record modules for digital and fiat asset display, refresh, filtering, and detail views.",
+            "Built on-chain transfer, platform transfer, recharge, swap, and exchange flows across ETH, BSC, TRON, and other multi-chain asset scenarios.",
+            "Owned the credit card module, including virtual/physical card applications, activation, details, bills, top-up, lock, cancel, and PIN reset flows.",
+            "Used the Figma MCP workflow together with Codex to quickly refactor and rebuild product pages with strong design fidelity, improving delivery speed and supporting commercialization and revenue goals.",
+            "Integrated vue-i18n and fallback handling to reduce hard-coded copy and improve localization resilience."
+          ],
           "tags": [
             "uni-app",
             "Vue2",
@@ -923,31 +979,59 @@ window.profileData = {
           "icon": "./images/icons/chat.svg"
         },
         {
+          "title": "HX Smart Home Mini Program",
+          "period": "Recent Project",
+          "subtitle": "uni-app / Vue3 / MQTT / IoT device control",
+          "description": "A smart home mini program built with uni-app and Vue3, covering homes, rooms, gateways, devices, scenes, automation, hotel rooms, and third-party camera scenarios across WeChat Mini Program and H5.",
+          "bullets": [
+            "Built core smart home pages and flows, including home creation/joining, room management, device onboarding, device grouping, scene lists, one-tap execution, and smart automation configuration.",
+            "Wrapped the MQTT communication layer with gateway connection, publish/subscribe callbacks, message ID deduplication, route-level callback dispatching, reconnect handling, and real-time device state reporting.",
+            "Managed global state with Vuex for devices, rooms, scenes, timers, automation tasks, member roles, and synchronized page data from MQTT responses.",
+            "Implemented control and routing logic for many device types, including lights, switches, curtains, sensors, door locks, air conditioners, voice infrared devices, disinfection machines, cameras, and barrier gates.",
+            "Integrated third-party camera features, including device list/add/delete flows, Ezviz accessToken refresh, embedded mini program live-view entry, and PTZ-related API integration.",
+            "Contributed to the hotel management module for hotel, area, room, and door-lock management, improving reuse across household and hotel space scenarios."
+          ],
+          "tags": [
+            "uni-app",
+            "Vue3",
+            "Vuex",
+            "MQTT",
+            "IoT",
+            "uView UI",
+            "WeChat Mini Program",
+            "H5"
+          ],
+          "icon": "./images/icons/website.svg"
+        },
+        {
           "title": "Cat DiDi CRM System",
           "period": "2021.12 - 2025.08",
-          "subtitle": "Shenzhen Hengdao Zhirong Information Technology Co., Ltd. (assigned to Chuangjin Hexin Fund) · CRM / customer service / H5 client",
-          "description": "Developed CRM, customer service, and H5 client features supporting lead filtering, loan lead flow, one-to-one service, and operational campaign QR code configuration.",
+          "subtitle": "Vue3 + Vite + Element Plus CRM admin",
+          "description": "A CRM admin system built with Vue3, Vite, Element Plus, and Pinia, supporting loan lead management, resource pools, customer follow-up, visit appointments, signing/incoming applications, channel accounting, and business reports across the sales lifecycle.",
           "bullets": [
-            "Wrapped reusable modules to reduce duplication and unify user interactions.",
-            "Normalized dropdown data returned by APIs and merged it into the existing dictionary system.",
-            "Used a strategy-based approach so QR codes generated from backend config could launch campaigns quickly.",
-            "Integrated Sentry monitoring plus CDN, image compression, request optimization, and async loading to improve page load speed."
+            "Built core modules such as lead management, my clients, and customer detail views, supporting filtering, assignment/reassignment, return to public pool, grouping, follow-up records, sensitive-info viewing, and batch transfer to customer-service CRM.",
+            "Implemented customer circulation flows across lead details, circulation records, visit information, todo records, asset valuation, SMS records, call records, signing, incoming applications, and work order creation.",
+            "Wrapped common Element Plus admin interactions, including complex search forms, configurable table columns, paginated tables, batch selection, dialogs, permission buttons, and dictionary-driven selects to improve delivery efficiency.",
+            "Maintained the Axios request layer and permission routing, covering token injection, duplicate-submit prevention, login expiration, file downloads, API error handling, and role-based dynamic menus/buttons.",
+            "Contributed to business reporting and channel accounting modules for channel, department, and employee dimensions, including outbound calls, follow-ups, visits, signing, incoming applications, turnover amount, and revenue metrics.",
+            "Integrated OSS file handling, Office/PDF preview, rich text editing, Excel export, and ECharts data views for contracts, attachments, and operational dashboards."
           ],
           "tags": [
             "Vue3",
-            "HTML5",
-            "jQuery",
-            "CSS3",
-            "Sentry",
-            "H5",
-            "CRM"
+            "Vite",
+            "Element Plus",
+            "Pinia",
+            "Axios",
+            "ECharts",
+            "CRM",
+            "Ruoyi"
           ],
           "icon": "./images/icons/crm.svg"
         },
         {
           "title": "Chuangjin Hexin Fund Trading and Retail Middle Platform",
           "period": "2021.12 - 2025.08",
-          "subtitle": "Shenzhen Hengdao Zhirong Information Technology Co., Ltd. (assigned to Chuangjin Hexin Fund) · fund trading / real-time valuation / retail middle platform",
+          "subtitle": "fund trading / real-time valuation / retail middle platform",
           "description": "Participated in multi-platform fund trading and retail middle platform development, covering fund trading, real-time valuation, WeChat/Alipay/H5 campaign pages, and PC admin tools.",
           "bullets": [
             "Delivered fund trading flows for the Chuangjin Hexin mini program, including discounted fund purchases, campaigns, live education, and real-time yield analysis.",
